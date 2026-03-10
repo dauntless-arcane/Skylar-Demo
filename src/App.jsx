@@ -271,7 +271,7 @@ export default function App() {
       content: m.content,
     }));
 
-    const res = await fetch("http://localhost:3001/chat", {
+    const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
